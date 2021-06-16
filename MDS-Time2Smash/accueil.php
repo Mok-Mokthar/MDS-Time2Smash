@@ -54,9 +54,7 @@
                 Découvre Time2Smash
             </div>
             <div class="desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Enim, blanditiis facere! Earum sunt consectetur perspiciatis
-                  vero voluptatem numquam unde sint non perferendis 
+                L'outil permettant de trouver rapidement un partenaire!
             </div>
         </div>
         <div class="ads">
