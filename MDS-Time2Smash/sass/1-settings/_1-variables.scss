@@ -1,0 +1,32 @@
+// Path
+$path-images : '../img/';
+$path-fonts  : '../fonts/';
+
+// Fonts
+$font  : "Roboto", Arial, Helvetica, sans-serif;
+$font-title : "Bebas Neue", Helvetica, Arial sans-serif;
+$font-text : $font;
+
+
+// Vars
+$container-max-width : 1440px;
+$container-max-width-big : 1600px;
+$header-height: 80px;
+
+
+$gutter : 30px;
+$gutters : (
+	'small'  : 20px,
+	'medium' : 30px,
+	'large'  : 40px,
+	'huge'   : 60px,
+);
+
+$breakpoints : (
+	'mini'  : 549px,
+	'small'  : 767px,
+	'medium' : 1023px,
+	'large'  : 1279px,
+	'huge'   : 1439px,
+	'giant'   : 1919px,
+);

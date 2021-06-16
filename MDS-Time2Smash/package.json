@@ -1,0 +1,21 @@
+{
+  "name": "time2smash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+"sass": "sass --watch /sass/main.scss:.css/main.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mok-Mokthar/Time2Smash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mok-Mokthar/Time2Smash/issues"
+  },
+  "homepage": "https://github.com/Mok-Mokthar/Time2Smash#readme"
+}

@@ -1,0 +1,161 @@
+*{
+ /* font-family: ;    */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #006B60;
+    color: #000;
+    padding: 0 30px;
+    height: 110px;
+    position: relative;
+    z-index: 10;
+}
+
+.logo{
+    max-width: 12.5em;
+    max-height: 12.5em;
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.menu{
+    float: right;
+    line-height: 100px;
+}
+
+.menu a{
+    color: #000;
+    text-transform: uppercase;
+    /* text-decoration-color:#EBFF46 ; */
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s; 
+    font-weight: bold;
+}
+
+a.connection{
+    font-size: 16px;
+    border-radius: 15px;
+    width: 10rem;
+    height: 2.2rem;
+    background-color: #232346;
+    border: none;
+    color: #fff;
+    transition: all 1s;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+
+.connection:hover {
+    background: none;
+    border: #232346;
+    color: black;
+    transition: all 1s;
+    text-transform: uppercase;
+}
+
+.menu a:link{
+    text-decoration-color: #EBFF46;
+}
+
+.menu i{
+    padding: 0 10px; 
+}
+
+.showMenuButton, .hideMenuButton{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.showMenuButton{
+    float: right;
+}
+
+.showMenuButton i{
+    line-height: 100px;
+}
+
+.menu a:hover, .showMenuButton:hover, .hideMenuButton:hover{
+    /* color: #EFE5FA; */
+    color: #000;
+    text-decoration: underline;
+    text-decoration-color: #EBFF46;
+    text-decoration-thickness: 3px ;
+}
+
+#check{
+    position: absolute ;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+.content img{
+    max-width: 900px;
+    width: 100%;
+
+}
+
+@media screen and (max-width:1200px){
+    .showMenuButton, .hideMenuButton{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(45deg,   rgba(235, 255, 70, 1) 16.66%,
+                                            rgba(126, 228, 110, 1) 33.32%,
+                                            rgba(0, 193, 141, 1) 49.98%,
+                                            rgba(0, 153, 150, 1) 66.64%,
+                                            rgba(0, 111, 130, 1) 83.3%),
+                                            rgba(0, 111, 130, 1) 100%;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
+        z-index: 50;
+        font-size: 22px;       
+    }
+    .menu a{
+        display: block;
+        padding: 20px;    
+    }
+    .hideMenuButton{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~.menu{
+        right: 0;
+    }
+
+    a.connection{
+        display: inline;
+        font-size: 18px;
+        border-radius: 15px;
+        width: 10rem;
+        height: 2.2rem;
+        background-color: #232346;
+        border: none;
+        color: #fff;
+        transition: all 1s;
+        text-transform: uppercase;
+        padding: 10px 10px;
+    }
+    
+    a.connection:hover {       
+        background: none;
+        border: #232346;
+        color: black;
+        transition: all 1s;
+        text-transform: uppercase;
+    }
+}

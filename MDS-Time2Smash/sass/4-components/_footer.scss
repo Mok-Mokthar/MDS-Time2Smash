@@ -1,0 +1,150 @@
+.footer-network-news{
+    background-color: #22335F;
+    width:100%;
+    height:400px;
+    text-align:center;
+    @media #{$tab2}{
+        height:280px;
+    }
+    
+   
+    
+    @media #{$extend2}{
+        height:360px;    
+    }
+
+    
+    .reseaux-sociaux{
+        text-align: center;
+        margin-bottom:20px;
+        display: inline-block;
+
+        @media #{$tab2}{
+            position:absolute;
+            left:68%;
+            top:108%;
+            z-index:1;
+        }
+        
+        img{
+            display:inline-block;
+            width:82px;
+            height:150px;
+            
+            &.facebook{
+                width:94px;
+                @media #{$tab2}{
+                    width:82px;
+                    height:150px;
+                
+                }
+            }
+            &.instagram{
+                @media #{$tab2}{
+                    width:72px;
+                    height:150px;
+                
+                }
+            }
+
+            
+        }
+    }
+    .smash{
+        margin-bottom:20px;
+        @media #{$tab2}{
+            position: absolute;
+            top:39%;
+            left:3%;
+            z-index: 1;
+            margin-left: 20px;
+        }    
+        @media #{$extend}{
+
+        }
+    }
+    
+    .footer-top{
+        
+        @media #{$tab2}{
+            display:flex;
+            justify-content: space-around;
+        }
+
+        .rubric{
+            color: #fff;
+            @media #{$tab2}{
+                margin-top:20px;
+                text-align: center;
+                margin-bottom:14px;
+            }
+
+            
+           
+            p{
+                display: none;
+
+                @media #{$tab2}{
+                    display: flex;
+                    margin-bottom:10px;
+                    justify-content: center;
+                }
+            }
+
+                &.reseau{
+                    display:none;
+                
+                    @media #{$tab2}{
+                        display:inline;
+                    }
+                  
+                }
+            a{                
+                color: #fff;
+                font-size: 14px;
+
+                &a:visited{
+                    color: #fff;
+                }
+            }
+        
+        }
+
+    }
+    
+    .footer-bottom{
+            @media #{$tab2}{
+            position: absolute;
+            width: 100%;
+            background-color:inherit;
+            
+            }
+        
+    
+        .border{
+            display: inline-block;
+            border-bottom: 9px solid #f0ecdc;
+            
+            width: 100%;
+            position: relative;
+
+        }
+        .logo-footer{
+            text-align:center;
+            width:100px;
+            height:50px;
+
+            @media #{$tab2}{
+               float:right;
+               width:10%;
+               margin-right:20px;
+               margin-top:18px
+            }
+
+            @media #{$desk}{
+                margin-top:18px;
+            }
+
+        }
+    }
+}
