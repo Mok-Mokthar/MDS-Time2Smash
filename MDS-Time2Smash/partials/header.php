@@ -27,7 +27,7 @@
                 <i class="fas fa-bars"></i>          
             </label>
             <ul class="menu">
-            <a href="#">Trouver un partenaire</a>
+            <a href="trouver_partenaire.php">Trouver un partenaire</a>
             <a href="qui-sommes-nous.php">Qui sommes-nous ?</a>
             <a href="actus.php">Actualites</a>
             <a href="users.php">Tchat</a>
