@@ -606,8 +606,7 @@ body {
 
 .desc {
   margin-top: 3rem;
-  width: 70%;
-  margin: auto;
+  text-align: center;
 }
 
 .adjectifs {
